@@ -62,7 +62,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function(evt) {
 
-            let ancora = document.querySelector('ancora-exclusao');
+            let ancora = document.querySelector('#ancora-exclusao');
   
             ancora.forEach( function(e){
                 
