@@ -25,7 +25,7 @@
 
     echo "<table width='80%' cellpadding='4' cellspacing='4' border='1'>";
     echo "<thead>";
-    echo "<tr><th>ID</th><th>Nome do curso</th><th>Data Inicio</th><th>Data término</th></tr>";
+    echo "<tr><th>ID</th><th>Nome do curso</th><th>Data Inicio</th><th>Data término</th><th>Operação</th></tr>";
     echo "</thead>";
 
     echo "<tbody>";
