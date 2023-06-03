@@ -41,7 +41,7 @@
                 <td>{$row->data_termino}</td>
                 <td>
                    <a href='atualizar.php?id={$row->id}'>Atualizar</a>
-                   <a  href='excluir.php?id={$row->id}'>Excluir</a>
+                   <a id='ancora-exclusao' href='excluir.php?id={$row->id}'>Excluir</a>
                 </td>
               </tr>";
         }
@@ -62,7 +62,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function(evt) {
 
-            let ancora = document.querySelectorAll('a');
+            let ancora = document.querySelector('ancora-exclusao');
   
             ancora.forEach( function(e){
                 
