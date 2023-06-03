@@ -63,10 +63,9 @@
         document.addEventListener('DOMContentLoaded', function(evt) {
 
             let ancora = document.querySelector('#ancora-exclusao');
-  
-            ancora.forEach( function(e){
+
                 
-                e.addEventListener('click', function(x){
+                ancora.addEventListener('click', function(x){
                     x.preventDefault();
                     if ( confirm('Deseja realmente apagar este registro?')){
                         alert('apagando o registro...');
@@ -77,8 +76,6 @@
                     }
                 })
             });
-
-        });
     </script>
 </body>
 
